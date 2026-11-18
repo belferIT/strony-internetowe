@@ -1,0 +1,17 @@
+Krótka historia WWW
+
+## Początki
+W 1989 roku Tim Berners-Lee, pracownik ośrodka CERN w Szwajcarii, zaproponował system łączenia dokumentów za pomocą odnośników. Tak powstała idea World Wide Web.
+
+Do działania sieci WWW potrzebne były trzy wynalazki: język HTML do opisu dokumentów, protokół HTTP do ich przesyłania oraz adresy URL do wskazywania, gdzie dokument się znajduje.
+
+## Pierwsza strona
+Pierwsza strona internetowa została udostępniona w 1991 roku. Zawierała tylko tekst i odnośniki. Cały dokument zaczynał się od znacznika <html> i był bardzo prosty.
+
+## Rozwój
+W 1994 roku Tim Berners-Lee założył organizację W3C, która do dziś rozwija standardy sieci. Pojawiły się kaskadowe arkusze stylów CSS, a potem język JavaScript, dzięki któremu strony stały się interaktywne.
+
+Obecnie obowiązuje standard HTML5, rozwijany na bieżąco jako tzw. Living Standard.
+
+## Podsumowanie
+Strona internetowa to wciąż zwykły plik tekstowy. Pamiętaj, że przeglądarka pokazuje treść zgodnie ze znacznikami, a nie zgodnie z układem tekstu w pliku.

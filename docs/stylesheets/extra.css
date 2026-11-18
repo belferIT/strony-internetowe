@@ -1,0 +1,12 @@
+/* Oznaczenia zakresu treści */
+.zakres {
+  display: inline-block;
+  padding: 0.1em 0.6em;
+  border-radius: 1em;
+  font-size: 0.75em;
+  font-weight: 600;
+  vertical-align: middle;
+}
+.zakres-p   { background: #e3f2fd; color: #0d47a1; }
+.zakres-gw  { background: #fff3e0; color: #e65100; }
+.lekcja-meta { font-size: 0.85em; opacity: 0.8; }

@@ -1,0 +1,6 @@
+Produkt; Rozmiar; Cena [zł]
+Kawa latte; 300 ml; 9,00
+Herbata; 250 ml; 5,00
+Czekolada na gorąco; 300 ml; 8,50
+Drożdżówka; 1 szt.; 4,00
+Kanapka z serem; 1 szt.; 6,50
