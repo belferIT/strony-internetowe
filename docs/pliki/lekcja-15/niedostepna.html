@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>strona</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .jasny { color: #cccccc; }
+        a:focus { outline: none; }
+        .przycisk { background: #1976d2; color: white; padding: 8px; display: inline-block; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Szkolny konkurs fotograficzny</h1>
+    <h4>Zasady konkursu</h4>
+    <p class="jasny">Prace przyjmujemy do 30 listopada. Każdy uczeń może zgłosić maksymalnie trzy zdjęcia.</p>
+    <p>Regulamin konkursu znajdziesz <a href="regulamin.pdf">tutaj</a>.</p>
+
+    <img src="zwyciezca.jpg" width="300">
+    <img src="obrazek123.jpg" alt="obrazek123.jpg" width="300">
+
+    <h2>Wyniki poprzedniej edycji</h2>
+    <table border="1">
+        <tr><td>Miejsce</td><td>Uczeń</td><td>Klasa</td></tr>
+        <tr><td>1</td><td>Anna K.</td><td>3TI</td></tr>
+        <tr><td>2</td><td>Piotr Z.</td><td>2TP</td></tr>
+    </table>
+
+    <h2>Zgłoszenie</h2>
+    <form>
+        Imię i nazwisko: <input type="text" name="nazwisko"><br>
+        E-mail: <input type="text" name="email"><br>
+        <div class="przycisk" onclick="alert('Wysłano!')">Wyślij</div>
+    </form>
+
+    <video src="film.mp4" autoplay></video>
+</body>
+</html>

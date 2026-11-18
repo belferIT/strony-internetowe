@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zdarzenia</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        section { border: 1px solid #ccc; padding: 10px; margin-bottom: 15px; }
+        #licznik { font-size: 32px; font-weight: bold; margin: 0 15px; }
+        #zarowka { width: 80px; height: 80px; border-radius: 50%; background: #9e9e9e; }
+        #kwadrat { width: 50px; height: 50px; background: #3f51b5; position: relative; left: 0; top: 0; }
+        #plotno { width: 300px; height: 150px; background: #e0f7fa; }
+    </style>
+</head>
+<body>
+    <h1>Zdarzenia</h1>
+
+    <section>
+        <h2>1. Licznik</h2>
+        <button id="minus">−</button><span id="licznik">0</span><button id="plus">+</button>
+    </section>
+
+    <section>
+        <h2>2. Żarówka</h2>
+        <div id="zarowka"></div>
+    </section>
+
+    <section>
+        <h2>3. Echo</h2>
+        <input type="text" id="tekst" placeholder="Pisz tutaj">
+        <p id="echo"></p>
+        <p id="znaki"></p>
+    </section>
+
+    <section>
+        <h2>4. Klawisze</h2>
+        <p>Ostatni klawisz: <strong id="klawisz">-</strong></p>
+    </section>
+
+    <section style="height: 200px;">
+        <h2>5. Kwadrat (strzałki)</h2>
+        <div id="kwadrat"></div>
+    </section>
+
+    <section>
+        <h2>6. Współrzędne</h2>
+        <div id="plotno"></div>
+    </section>
+
+    <section>
+        <h2>Dla chętnych</h2>
+        <ul id="zakupy">
+            <li>mleko</li>
+            <li>chleb</li>
+            <li>jabłka</li>
+        </ul>
+    </section>
+</body>
+</html>

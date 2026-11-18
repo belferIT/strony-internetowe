@@ -66,11 +66,63 @@ nav:
       - "8. Grafika w GIMP": html/lekcja-08.md
       - "9. Tabele": html/lekcja-09.md
       - "10. Scalanie komórek": html/lekcja-10.md
+      - "11. Formularze, cz. 1": html/lekcja-11.md
+      - "12. Formularze, cz. 2": html/lekcja-12.md
+      - "13. Semantyka HTML5": html/lekcja-13.md
+      - "14. Multimedia": html/lekcja-14.md
+      - "15. Dostępność": html/lekcja-15.md
+      - "16. Sprawdzian HTML": html/lekcja-16.md
   - CSS:
-      - css/index.md
+      - "O dziale": css/index.md
+      - "17. Wprowadzenie do CSS": css/lekcja-17.md
+      - "18. Selektory": css/lekcja-18.md
+      - "19. Kaskadowość i specyficzność": css/lekcja-19.md
+      - "20. Kolory i jednostki": css/lekcja-20.md
+      - "21. Tekst i czcionki": css/lekcja-21.md
+      - "22. Model pudełkowy": css/lekcja-22.md
+      - "23. Tła i gradienty": css/lekcja-23.md
+      - "24. Listy, odnośniki, pseudoklasy": css/lekcja-24.md
+      - "25. Pseudoelementy i atrybuty": css/lekcja-25.md
+      - "26. Stylowanie tabel": css/lekcja-26.md
+      - "27. Stylowanie formularzy": css/lekcja-27.md
+      - "28. display i float": css/lekcja-28.md
+      - "29. Układ strony z bloków": css/lekcja-29.md
+      - "30. Pozycjonowanie": css/lekcja-30.md
+      - "31. Flexbox, cz. 1": css/lekcja-31.md
+      - "32. Flexbox, cz. 2": css/lekcja-32.md
+      - "33. CSS Grid ★": css/lekcja-33.md
+      - "34. Strona responsywna": css/lekcja-34.md
+      - "35. Mobile first ★": css/lekcja-35.md
+      - "36. Animacje ★": css/lekcja-36.md
+      - "37. Zmienne i tryb ciemny ★": css/lekcja-37.md
+      - "38. Sprawdzian HTML + CSS": css/lekcja-38.md
   - Projekt i publikacja:
-      - projekt/index.md
+      - "O dziale": projekt/index.md
+      - "39. Analiza projektu": projekt/lekcja-39.md
+      - "40. Inkscape: logo": projekt/lekcja-40.md
+      - "41. Walidacja i testy": projekt/lekcja-41.md
+      - "42. Optymalizacja i SEO": projekt/lekcja-42.md
+      - "43. Hosting i FTP": projekt/lekcja-43.md
+      - "44. GitHub Pages ★": projekt/lekcja-44.md
   - JavaScript:
-      - javascript/index.md
+      - "O dziale": javascript/index.md
+      - "45. Zmienne i typy": javascript/lekcja-45.md
+      - "46. Warunki": javascript/lekcja-46.md
+      - "47. Pętle": javascript/lekcja-47.md
+      - "48. Funkcje": javascript/lekcja-48.md
+      - "49. DOM": javascript/lekcja-49.md
+      - "50. Zdarzenia": javascript/lekcja-50.md
+      - "51. Formularz i obliczenia": javascript/lekcja-51.md
+      - "52. Style i klasy": javascript/lekcja-52.md
+      - "53. Tablice": javascript/lekcja-53.md
+      - "54. Obiekty": javascript/lekcja-54.md
+      - "55. Walidacja formularza": javascript/lekcja-55.md
+      - "56. Timery": javascript/lekcja-56.md
+      - "57. Math i Date": javascript/lekcja-57.md
+      - "58. localStorage ★": javascript/lekcja-58.md
+      - "59. fetch i JSON ★": javascript/lekcja-59.md
+      - "60. Sprawdzian JS": javascript/lekcja-60.md
   - Powtórka do INF.03:
-      - powtorka/index.md
+      - "O dziale": powtorka/index.md
+      - "61–62. Symulacja egzaminu": powtorka/lekcja-61.md
+      - "63–64. Projekt końcowy": powtorka/lekcja-63.md

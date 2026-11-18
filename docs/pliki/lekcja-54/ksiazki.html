@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteka</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #bdbdbd; padding: 6px 10px; }
+        th { background: #5d4037; color: white; }
+        form input { width: 140px; }
+        button { margin: 10px 5px 0 0; }
+    </style>
+</head>
+<body>
+    <h1>Katalog biblioteki</h1>
+
+    <form id="nowa">
+        <input id="tytul" placeholder="Tytuł" required>
+        <input id="autor" placeholder="Autor" required>
+        <input id="rok" type="number" placeholder="Rok" required>
+        <input id="strony" type="number" placeholder="Strony" required>
+        <button type="submit">Dodaj książkę</button>
+    </form>
+
+    <button type="button" id="dostepne">Tylko dostępne</button>
+    <button type="button" id="sortuj">Sortuj wg roku</button>
+    <button type="button" id="wszystkie">Wszystkie</button>
+
+    <div id="tabela"></div>
+    <p id="podsumowanie"></p>
+
+    <script>
+        const ksiazki = [
+            { tytul: "Pan Tadeusz", autor: "Adam Mickiewicz", rok: 1834, strony: 380, dostepna: true },
+            { tytul: "Lalka", autor: "Bolesław Prus", rok: 1890, strony: 720, dostepna: false },
+            { tytul: "Solaris", autor: "Stanisław Lem", rok: 1961, strony: 220, dostepna: true },
+            { tytul: "Wiedźmin. Ostatnie życzenie", autor: "Andrzej Sapkowski", rok: 1993, strony: 330, dostepna: true },
+            { tytul: "Mały Książę", autor: "Antoine de Saint-Exupéry", rok: 1943, strony: 96, dostepna: false },
+            { tytul: "Krzyżacy", autor: "Henryk Sienkiewicz", rok: 1900, strony: 690, dostepna: true }
+        ];
+
+        // Twój kod
+    </script>
+</body>
+</html>

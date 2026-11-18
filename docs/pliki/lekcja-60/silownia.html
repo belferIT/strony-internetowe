@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Siłownia Atlas</title>
+    <style>
+        body { font-family: Tahoma, sans-serif; margin: 0; background: #f5f5f5; }
+        header { background: #212121; color: #ffeb3b; text-align: center; padding: 15px; }
+        main { display: flex; gap: 20px; padding: 20px; max-width: 900px; margin: 0 auto; }
+        section { background: white; padding: 15px; flex: 1; border-radius: 6px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border-bottom: 1px solid #ddd; padding: 6px; text-align: left; }
+        tr.podswietl { background: #fff59d; }
+        label { display: block; margin-top: 10px; }
+        #wynik { font-weight: bold; font-size: 18px; margin-top: 15px; }
+        .ukryty { display: none; }
+    </style>
+</head>
+<body>
+    <header><h1>Siłownia Atlas</h1></header>
+    <main>
+        <section>
+            <h2>Cennik</h2>
+            <table id="cennik">
+                <tr><th>Karnet</th><th>Cena / miesiąc</th></tr>
+                <tr><td>Poranny (6:00–14:00)</td><td>69 zł</td></tr>
+                <tr><td>Standard</td><td>99 zł</td></tr>
+                <tr><td>Premium (z sauną)</td><td>149 zł</td></tr>
+            </table>
+            <button type="button" id="przycisk-regulamin">Pokaż regulamin</button>
+            <p id="regulamin" class="ukryty">Karnet jest imienny. Przed pierwszym treningiem obowiązuje instruktaż BHP.</p>
+        </section>
+
+        <section>
+            <h2>Kalkulator karnetu</h2>
+            <label for="karnet">Rodzaj karnetu:</label>
+            <select id="karnet">
+                <option value="69">Poranny</option>
+                <option value="99" selected>Standard</option>
+                <option value="149">Premium</option>
+            </select>
+
+            <label for="miesiace">Liczba miesięcy:</label>
+            <input type="number" id="miesiace" value="1">
+
+            <label><input type="checkbox" id="trener"> Trener personalny (+50 zł / miesiąc)</label>
+
+            <p>Status:</p>
+            <label><input type="radio" name="status" value="normalny" checked> normalny</label>
+            <label><input type="radio" name="status" value="uczen"> uczeń / student (−30 zł)</label>
+
+            <button type="button" id="oblicz">Oblicz</button>
+            <p id="wynik"></p>
+        </section>
+    </main>
+</body>
+</html>

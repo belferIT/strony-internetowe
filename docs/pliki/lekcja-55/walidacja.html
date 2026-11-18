@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Rejestracja</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #eceff1; }
+        #rejestracja { width: 360px; margin: 30px auto; background: white; padding: 20px; border-radius: 8px; }
+        label { display: block; margin-top: 12px; font-weight: bold; }
+        input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+            width: 100%; padding: 6px; box-sizing: border-box; border: 2px solid #b0bec5; border-radius: 4px; }
+        input.zle { border-color: #e53935; }
+        .blad { color: #e53935; font-size: 13px; display: block; min-height: 16px; }
+        button { margin-top: 15px; width: 100%; padding: 10px; }
+        #sukces { text-align: center; color: #2e7d32; font-size: 22px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <form id="rejestracja" novalidate>
+        <h1>Załóż konto</h1>
+
+        <label for="login">Login</label>
+        <input type="text" id="login">
+        <span class="blad" id="blad-login"></span>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+        <span class="blad" id="blad-email"></span>
+
+        <label for="haslo">Hasło</label>
+        <input type="password" id="haslo">
+        <span class="blad" id="blad-haslo"></span>
+
+        <label for="haslo2">Powtórz hasło</label>
+        <input type="password" id="haslo2">
+        <span class="blad" id="blad-haslo2"></span>
+
+        <label for="telefon">Telefon (opcjonalnie)</label>
+        <input type="tel" id="telefon">
+        <span class="blad" id="blad-telefon"></span>
+
+        <label><input type="checkbox" id="regulamin"> Akceptuję regulamin</label>
+        <span class="blad" id="blad-regulamin"></span>
+
+        <button type="submit">Zarejestruj</button>
+    </form>
+    <p id="sukces"></p>
+</body>
+</html>

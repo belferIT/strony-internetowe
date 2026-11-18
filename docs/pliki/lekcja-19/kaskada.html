@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kaskada</title>
+    <style>
+        body { color: gray; font-family: Arial, sans-serif; }
+        p { color: black; }
+        .niebieski { color: blue; }
+        p.zielony { color: green; }
+        #specjalny { color: purple; }
+        .czerwony { color: red; }
+        .niebieski { color: navy; }
+        div p { color: brown; }
+        .ramka p { color: teal; }
+    </style>
+</head>
+<body>
+    <p>A. Akapit bez klasy.</p>
+    <p class="niebieski">B. Akapit z klasą niebieski.</p>
+    <p class="zielony czerwony">C. Akapit z klasami zielony i czerwony.</p>
+    <p class="czerwony" id="specjalny">D. Akapit z klasą i identyfikatorem.</p>
+    <div class="ramka">
+        <p>E. Akapit w bloku z klasą ramka.</p>
+    </div>
+    <div>
+        <p class="niebieski">F. Akapit w bloku, z klasą niebieski.</p>
+    </div>
+</body>
+</html>

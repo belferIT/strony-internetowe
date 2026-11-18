@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Pogoda w tygodniu</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .wynik { font-weight: bold; color: #0277bd; }
+    </style>
+</head>
+<body>
+    <h1>Pogoda w tygodniu</h1>
+    <ul id="lista"></ul>
+    <p>Średnia: <span class="wynik" id="srednia"></span></p>
+    <p>Najcieplej: <span class="wynik" id="max"></span></p>
+    <p>Dni z mrozem: <span class="wynik" id="mroz"></span></p>
+    <p>Posortowane: <span class="wynik" id="posortowane"></span></p>
+
+    <p>
+        <label>Nowa temperatura: <input type="number" id="nowa"></label>
+        <button type="button" id="dodaj">Dodaj</button>
+    </p>
+
+    <script src="skrypt.js"></script>
+</body>
+</html>

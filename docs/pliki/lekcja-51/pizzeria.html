@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizzeria Bella</title>
+    <style>
+        body { font-family: Verdana, sans-serif; background: #fff3e0; margin: 0; }
+        header { background: #bf360c; color: white; text-align: center; padding: 15px; }
+        #zamowienie { width: 420px; margin: 20px auto; background: white; padding: 20px; border-radius: 8px; }
+        label { display: block; margin-top: 10px; }
+        button { margin-top: 15px; padding: 8px 20px; background: #bf360c; color: white; border: none; cursor: pointer; }
+        #wynik { font-weight: bold; font-size: 18px; color: #bf360c; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pizzeria Bella – zamów online</h1>
+    </header>
+
+    <section id="zamowienie">
+        <label for="rozmiar">Rozmiar pizzy:</label>
+        <select id="rozmiar">
+            <option value="22">mała (22 zł)</option>
+            <option value="30">średnia (30 zł)</option>
+            <option value="38">duża (38 zł)</option>
+        </select>
+
+        <label for="ilosc">Liczba pizz:</label>
+        <input type="number" id="ilosc" min="1" value="1">
+
+        <p>Dodatki (+4 zł do każdej pizzy):</p>
+        <label><input type="checkbox" id="ser"> podwójny ser</label>
+        <label><input type="checkbox" id="pieczarki"> pieczarki</label>
+        <label><input type="checkbox" id="salami"> salami</label>
+
+        <p>Odbiór:</p>
+        <label><input type="radio" name="odbior" value="0" checked> odbiór osobisty</label>
+        <label><input type="radio" name="odbior" value="8"> dostawa (+8 zł)</label>
+
+        <button type="button" id="oblicz">Oblicz</button>
+        <p id="wynik"></p>
+    </section>
+</body>
+</html>

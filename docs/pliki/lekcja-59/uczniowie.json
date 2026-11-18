@@ -1,0 +1,8 @@
+[
+  { "imie": "Anna", "nazwisko": "Kowalska", "klasa": "1TP", "srednia": 4.75, "zainteresowania": ["grafika", "CSS"] },
+  { "imie": "Bartosz", "nazwisko": "Nowak", "klasa": "1TP", "srednia": 4.10, "zainteresowania": ["gry", "JavaScript"] },
+  { "imie": "Celina", "nazwisko": "Wiśniewska", "klasa": "1TI", "srednia": 5.20, "zainteresowania": ["sieci", "Linux"] },
+  { "imie": "Damian", "nazwisko": "Wójcik", "klasa": "1TI", "srednia": 3.85, "zainteresowania": ["sprzęt"] },
+  { "imie": "Ewa", "nazwisko": "Kamińska", "klasa": "1TP", "srednia": 4.95, "zainteresowania": ["bazy danych", "Python"] },
+  { "imie": "Filip", "nazwisko": "Lewandowski", "klasa": "1TI", "srednia": 4.40, "zainteresowania": ["serwery", "bezpieczeństwo"] }
+]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zapisy na rajd</title>
+</head>
+<body>
+    <form>
+        <h1>Zapisy na rajd</h1>
+
+        <label for="imie">Imię i nazwisko</label>
+        <input type="text" id="imie" name="imie" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="klasa">Klasa</label>
+        <select id="klasa" name="klasa">
+            <option>1TP</option>
+            <option>1TI</option>
+            <option>2TP</option>
+            <option>2TI</option>
+        </select>
+
+        <label for="uwagi">Uwagi (np. dieta)</label>
+        <textarea id="uwagi" name="uwagi"></textarea>
+
+        <p>
+            <input type="checkbox" id="zgoda" name="zgoda" required>
+            <span>Mam zgodę rodzica na udział w rajdzie</span>
+        </p>
+
+        <button type="submit">Zapisz się</button>
+    </form>
+</body>
+</html>
