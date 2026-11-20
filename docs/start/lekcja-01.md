@@ -48,11 +48,7 @@ GitHub to serwis, w którym programiści przechowują kod i pracują nad nim wsp
 !!! tip "Dlaczego bez polskich znaków i spacji?"
     W adresach stron internetowych spacje i polskie litery sprawiają kłopoty. Przyzwyczaj się od początku do nazw typu `moja-strona.html`.
 
-**Część B. Ergonomia (5 min)**
-
-Ustaw swoje stanowisko zgodnie z tabelą powyżej. W pliku `lekcja-01/ergonomia.txt` zapisz, co zmieniłeś/zmieniłaś (min. 3 rzeczy).
-
-**Część C. Konto GitHub (15 min)**
+**Część B. Konto GitHub (20 min)**
 
 1. Wejdź na [github.com/signup](https://github.com/signup).
 2. Załóż konto. Wybierz login **bez swojego imienia i nazwiska**, np. `zielony-kod-24`. Login będzie częścią adresu Twojej strony.
