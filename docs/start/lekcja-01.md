@@ -55,17 +55,21 @@ Ustaw swoje stanowisko zgodnie z tabelą powyżej. W pliku `lekcja-01/ergonomia.
 **Część C. Konto GitHub (15 min)**
 
 1. Wejdź na [github.com/signup](https://github.com/signup).
-2. Załóż konto. Wybierz login, który będzie dobrze wyglądał w adresie strony, np. `jkowalski-dev`. Adres Twojej strony będzie miał postać `login.github.io`.
+2. Załóż konto. Wybierz login **bez swojego imienia i nazwiska**, np. `zielony-kod-24`. Login będzie częścią adresu Twojej strony.
 3. Potwierdź adres e-mail.
 4. Włącz uwierzytelnianie dwuskładnikowe: *Settings → Password and authentication*.
-5. Zapisz swój login w pliku `lekcja-01/github.txt`.
+5. Utwórz repozytorium o nazwie `strony-internetowe`: przycisk **New** (lub **+ → New repository**), zaznacz *Public* i *Add a README file*, kliknij **Create repository**. Tu będziesz publikować prace z tego przedmiotu, pod adresem `https://login.github.io/strony-internetowe/`.
+6. Zapisz swój login w pliku `lekcja-01/github.txt`.
+
+!!! warning "Chroń swoje dane"
+    Wszystko, co umieścisz na GitHubie, widzi każdy. Nie wpisuj imienia i nazwiska w loginie, opisie profilu, nazwach repozytoriów ani w plikach, które publikujesz.
 
 !!! info "Nie chcesz zakładać konta?"
     Powiedz o tym nauczycielowi: otrzymasz inny sposób publikowania swoich prac.
 
 ## Zadanie dla chętnych <span class="zakres zakres-gw">★ poza egzaminem</span>
 
-Uzupełnij swój profil GitHub: zdjęcie lub awatar, krótki opis. Utwórz repozytorium o nazwie takiej jak Twój login: jego plik `README.md` wyświetla się na stronie profilu. Napisz w nim dwa zdania o sobie.
+W repozytorium `strony-internetowe` otwórz plik `README.md` i kliknij ikonę ołówka (*Edit*). Napisz w nim dwa zdania o przedmiocie „Strony internetowe”: czego chcesz się nauczyć i jaką stronę chcesz zrobić. Nie podawaj imienia, nazwiska ani nazwy szkoły. Zapisz zmiany przyciskiem **Commit changes**.
 
 ## Czy potrafię…?
 
@@ -73,3 +77,4 @@ Uzupełnij swój profil GitHub: zdjęcie lub awatar, krótki opis. Utwórz repoz
 - [ ] ustawić monitor i krzesło zgodnie z zasadami ergonomii
 - [ ] powiedzieć, co zrobić, gdy ktoś zostanie porażony prądem
 - [ ] zalogować się na swoje konto GitHub
+- [ ] utworzyć repozytorium `strony-internetowe`
