@@ -30,7 +30,7 @@ Strona o hobby lub klubie sportowym, przewodnik po okolicy, portfolio z pracami 
 7. Co najmniej jeden formularz lub element interaktywny w JavaScript.
 8. Własne logo w formacie SVG.
 9. Uzupełnione `title` i `meta description` na każdej podstronie.
-10. Strona opublikowana w GitHub Pages, w repozytorium plik `README.md` z opisem projektu i linkiem do strony.
+10. Strona opublikowana w GitHub Pages w osobnym folderze repozytorium `strony-internetowe`, w `README.md` repozytorium opis projektu i link do strony.
 11. Wszystkie materiały (zdjęcia, ikony, czcionki) własne lub na wolnej licencji, ze źródłami podanymi w stopce lub w `README.md`.
 
 ## Wymagania dodatkowe (do wyboru, na wyższą ocenę)
